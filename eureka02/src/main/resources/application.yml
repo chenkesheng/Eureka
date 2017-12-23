@@ -34,7 +34,7 @@ spring:
     name: eureka02
 eureka:
   instance:
-    hostname: 127.0.0.1
+    hostname: 192.168.5.129
     prefer-ip-address: true
   client:
 #单节点要加这个，不让注册中心自己注册自己
