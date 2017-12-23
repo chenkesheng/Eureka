@@ -2,17 +2,17 @@
 #  level: debug
 server:
   port: 8761
-security:
-  basic:
-    enabled: false  #开启基于HTTP basic的认证
-  user:
-    name: admin    #配置登陆名
-    password: ${cipher}123456   #配置登陆密码
----
-spring:
-  profiles: cks
-  application:
-    name: eureka
+#security:
+#  basic:
+#    enabled: false  #开启基于HTTP basic的认证
+#  user:
+#    name: admin    #配置登陆名
+#    password: ${cipher}123456   #配置登陆密码
+#---
+#spring:
+#  profiles: cks
+#  application:
+#    name: eureka
 
 eureka:
   instance:
